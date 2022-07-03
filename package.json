@@ -1,0 +1,20 @@
+{
+    "name": "node",
+    "version": "1.0.0",
+    "description": "premier pas avec node JS",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon app.js",
+        "start-server": "node app.js"
+    },
+    "author": "Mamadou Bah",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.1",
+        "jquery": "^3.6.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.18"
+    }
+}
